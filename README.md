@@ -73,6 +73,13 @@ The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as foll
 | Runtime (Wall Time) | 31.5m | 17m | 33.5m |  |
 | Card Temperature | 81 C | 82 C | 84 C | N/A |
 
+---
+
+Visualize the result:
+
+![alt text](test_script/fig_1.jpg "TF Runtime")
+
+![alt text](test_script/fig_2.jpg "TF Runtime Temperature")
 
 > Note: Other micro-benchamark were not done due Twistcode forte is on computer vision.
 
