@@ -70,7 +70,7 @@ The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as foll
 
 | Model | GV 100 | IPU | Titan V | CPU (88 Cores) |
 | ------- | ------- |------- | ------- | ------- |
-| Runtime (Wall Time) | 31.5m | 17m | 33.5m |  |
+| Runtime (Wall Time) | 31.5m | 17m | 33.5m | > 13 hours |
 | Card Temperature | 81 C | 82 C | 84 C | N/A |
 
 ---
