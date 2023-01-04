@@ -41,12 +41,10 @@ Our testbench is the following:
 | ------- | ------- |------- | 
 | Simple MNIST CovNet | Image Classification | Training |
 
-The result for Simple MNIST CovNet Training is as follows:
+The result for Simple MNIST CovNet Training (with > 90% accuracy) is as follows:
 
 | Model | GV 100 | IPU | Titan V | CPU (88 Cores) |
 | ------- | ------- |------- | ------- | ------- |
-| Model Training Accuracy| 0.9811000227928162 | 0.9814703464508057 | 0.9800000190734863 | 0.9817000031471252 |
-| Model Training Validation Lost | 0.06271637231111526 | 0.05814420431852341 | 0.06043968349695206 | 0.0602235347032547 |
 | Runtime (Wall Time) | 2m 0.190s | 1m 26.398s | 2m 0.039s | 4m 15.376s |
 | Card Temperature | 51 C | 29 C | 58 C | N/A |
 
@@ -68,12 +66,10 @@ The result is as follows:
 | ------- | ------- |------- | 
 | Deep CNN ([RSNA Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)) | Image Classification | Training | 
 
-The result for Deep CNN (RSNA Dataset) Training is as follows:
+The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as follows:
 
 | Model | GV 100 | IPU | Titan V | CPU (88 Cores) |
 | ------- | ------- |------- | ------- | ------- |
-| Model Training Accuracy| 0.9811000227928162 | 0.9814703464508057 | 0.9800000190734863 | 0.9817000031471252 |
-| Model Training Validation Lost | 0.06271637231111526 | 0.05814420431852341 | 0.06043968349695206 | 0.0602235347032547 |
 | Runtime (Wall Time) | 31.5m | 17m | 33.5m |  |
 | Card Temperature | 81 C | 82 C | 84 C | N/A |
 
