@@ -77,9 +77,9 @@ The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as foll
 
 Visualize the result:
 
-![alt text](test_script/fig_1.jpg "TF Runtime")
+![alt text](asset/fig_1.jpg "TF Runtime")
 
-![alt text](test_script/fig_2.jpg "TF Runtime Temperature")
+![alt text](asset/fig_2.jpg "TF Runtime Temperature")
 
 > Note: Other micro-benchmark were not done yet, maybe soon in the future.
 
