@@ -2,10 +2,10 @@
 
 This repository contains a example code of Tensorflow benchmark on [graphcore](https://www.graphcore.ai/) Intelligence Processing Unit (IPU) on their [Poplar SDK](https://www.graphcore.ai/products/poplar)
 
-> The code presented here requires using Poplar SDK 3.1.0, and has been tested using Ubuntu 20.04 and Python 3.8.10
+> The code presented here requires using Poplar SDK 3.1.0, and has been tested using Ubuntu 20.04 (as per requirement by Graphcore) and Python 3.8.10
 
 ## Introduction
-Many artificial intelligence (AI) devices have been developed to accelerate the training and inference of neural network models. The most common ones are the Graphics Processing Unit (GPU) and Tensor Processing Unit (TPU).[^1] Existance and success of these devices are largely driven from availibility of novel deep learning models and large-scale datasets.
+Many artificial intelligence (AI) devices have been developed to accelerate the training and inference of neural network models. The most common ones are the Graphics Processing Unit (GPU) and Tensor Processing Unit (TPU).[^1] Existence and the success of these devices are largely driven from availability of novel deep learning models and large-scale datasets.
 
 Graphcore IPU emphasis is on fine-grained parallelism which means that the IPU can efficiently run applications that have irregular and sparse data access patterns and control flow.[^2] 
 
@@ -25,7 +25,7 @@ This repo was tested with the following requirement:
 
 Our testbench is the following:
 
-+ Intel Xeon Gold 6152, 3.7 GHz (88 cores)
++ Dual Intel Xeon Gold 6152, 3.7 GHz (44 cores total, 88-HT)
 + Mobo WS-C621E-SAGE Series
 + 64 GiB DDR4 (2666MHz)
 + Samsung SSD 960 PRO 1TB
