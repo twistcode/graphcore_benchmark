@@ -81,7 +81,7 @@ Visualize the result:
 
 ![alt text](test_script/fig_2.jpg "TF Runtime Temperature")
 
-> Note: Other micro-benchamark were not done due Twistcode forte is on computer vision.
+> Note: Other micro-benchmark were not done yet, maybe soon in the future.
 
 ## Reference
 
