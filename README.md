@@ -66,7 +66,7 @@ The result is as follows:
 | ------- | ------- |------- | 
 | Deep CNN ([RSNA Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)) | Image Classification | Training | 
 
-The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as follows:
+The result for Deep CNN (RSNA Full Dataset) Training (with > 60% accuracy) is as follows:
 
 | Model | GV 100 | IPU | Titan V | CPU (88 Cores) |
 | ------- | ------- |------- | ------- | ------- |
@@ -74,6 +74,10 @@ The result for Deep CNN (RSNA Dataset) Training (with > 60% accuracy) is as foll
 | Card Temperature | 81 C | 82 C | 84 C | N/A |
 
 ---
+
+CNN that we use is as follow:
+
+![alt text](asset/deep_cnn.png "TF Runtime")
 
 Visualize the result:
 
